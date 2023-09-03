@@ -1,0 +1,32 @@
+2023-09-03 20:46:36 INFO ====== WebDriver manager ======
+2023-09-03 20:46:38 INFO Get LATEST chromedriver version for google-chrome
+2023-09-03 20:46:38 INFO Get LATEST chromedriver version for google-chrome
+2023-09-03 20:46:38 INFO There is no [win64] chromedriver "116.0.5845.141" for browser google-chrome "116.0.5845.141" in cache
+2023-09-03 20:46:38 INFO Get LATEST chromedriver version for google-chrome
+2023-09-03 20:46:38 INFO WebDriver version 116.0.5845.96 selected
+2023-09-03 20:46:38 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-09-03 20:46:38 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-09-03 20:46:39 INFO Driver downloading response is 200
+2023-09-03 20:46:39 INFO Get LATEST chromedriver version for google-chrome
+2023-09-03 20:46:40 INFO Driver has been saved in cache [C:\Users\nkomp\.wdm\drivers\chromedriver\win64\116.0.5845.141]
+2023-09-03 20:46:41 INFO Test_login_negative started.
+2023-09-03 20:46:43 INFO Send test to element /html/body/div/main/div/div/div/form/div[1]/label/input
+2023-09-03 20:46:44 INFO Send test to element /html/body/div/main/div/div/div/form/div[2]/label/input
+2023-09-03 20:46:44 INFO Click login button
+2023-09-03 20:46:45 INFO We find text 401 in error field /html/body/div/main/div/div/div[2]/h2
+2023-09-03 20:46:45 INFO Test_login_positive started.
+2023-09-03 20:46:45 INFO Send Nikos to element /html/body/div/main/div/div/div/form/div[1]/label/input
+2023-09-03 20:46:45 INFO Send 9c66c03bc3 to element /html/body/div/main/div/div/div/form/div[2]/label/input
+2023-09-03 20:46:45 INFO Click login button
+2023-09-03 20:46:47 INFO Test_create_post started.
+2023-09-03 20:46:47 INFO Click new post button
+2023-09-03 20:46:52 INFO Enter title New Post into new post /html/body/div/main/div/div/form/div/div/div[1]/div/label/input
+2023-09-03 20:46:52 INFO Enter description New Post Description into new post /html/body/div/main/div/div/form/div/div/div[2]/div/label/span/textarea
+2023-09-03 20:46:53 INFO Enter content New Post Content into new post /html/body/div/main/div/div/form/div/div/div[3]/div/label/span/textarea
+2023-09-03 20:46:53 INFO Click save post button
+2023-09-03 20:46:58 INFO Test contact started.
+2023-09-03 20:46:58 INFO Click contact button
+2023-09-03 20:47:03 INFO Enter name Nikos into contact field //*[@id="contact"]/div[1]/label/input
+2023-09-03 20:47:03 INFO Enter email Nikos@mail.ru into contact field //*[@id="contact"]/div[2]/label/input
+2023-09-03 20:47:03 INFO Enter content Contact us message into contact field //*[@id="contact"]/div[3]/label/span/textarea
+2023-09-03 20:47:03 INFO Click contact send button
