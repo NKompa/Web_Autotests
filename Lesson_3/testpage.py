@@ -103,7 +103,3 @@ class OperationsHelper(BasePage):
     def click_contact_send_button(self):
         logging.info("Click contact send button")
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_SEND_BTN).click()
-
-    def get_alert(self):
-        alert = self.driver.switch_to.alert
-        return alert.text
