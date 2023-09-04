@@ -105,5 +105,7 @@ class OperationsHelper(BasePage):
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_SEND_BTN).click()
 
     def get_alert(self):
-        alert = self.driver.switch_to.alert
-        return alert.text
+        logging.info("Get alert text")
+        text = self.get_alert_text()
+        logging.info(text)
+        return text
