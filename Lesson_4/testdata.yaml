@@ -1,0 +1,22 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 5
+implicitly_wait: 3
+login: Nikos
+password: 9c66c03bc3
+post_title: New Post
+post_description: New Post Description
+post_content: New Post Content
+alert_text: Form successfully submitted
+email: Nikos@mail.ru
+contact_content: Contact us message
+log_email: XXX@mail.ru
+log_email_pass: XXX
+log_name: log.txt
+html_report: report.html
+address_login_API: https://test-stand.gb.ru/gateway/login
+address_posts_API: https://test-stand.gb.ru/api/posts
+other_post_title_API: Название
+my_post_title_API: New Post API
+my_post_description_API: New Post Description API
+my_post_content_API: New Post Content API
